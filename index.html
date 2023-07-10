@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css"/>
+        <script src="./js/jquery.min.js"></script>
+        <link rel="icon" href="./img/icon.png"/>
+        <title>Vinegar Restaurant</title>
+    </head>
+
+    <!-- nav -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white"> <a class="navbar-brand" href="./index.html"><img src="./img/logo.png"></a>
+        <button
+        class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"> <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" href="./index.html#menu">Menu</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" href="./About.html">About us</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" href="./login.html">Contact</a>
+                    </li>
+                </ul> <a href="#" class="btn btn-outline-dark">#THESERVINGPLATE</a>
+            </div>
+    </nav>
+    <!-- end of nav -->
+    
+    <body>
+
+        <!-- Hero header -->
+        <div class="block hero1 my-auto" style="background-image:url(https://images.unsplash.com/photo-1533777324565-a040eb52facd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWVhbHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);">
+            <div class="container-fluid text-center">
+                 <h1 class="display-2 text-white" data-aos="fade-up" data-aos-duration="1000"
+                data-aos-offset="0">Vinegar Restaurant</h1>
+                <p class="lead text-white" data-aos="fade-up" data-aos-duration="1000"
+                data-aos-delay="600">Welcome to Vinegar!</p>
+                <a
+                href="#menu" class="btn-text lead d-inline-block text-white border-top border-bottom mt-4 pt-1 pb-1"
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">View Menu</a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!-- end of hero header -->
+
+        <!-- about story -->
+        <section class="ftco-section" id="section-about" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0"
+        data-aos-delay="200">
+         <div class="container">
+              <div class="row">
+                <div class="col-md-5 ftco-animate mb-5">
+                  <h4 class="ftco-sub-title">Our Story</h4>
+                  <h2 class="ftco-primary-title display-4">Welcome</h2>
+        
+                  <p class="mb-4">Vinegar is a five star restaurant, We have been around since 1946 by a team of food connoisseuros who aim to bring the different flavours and dishes of the world into a building.</p>
+                  <p> .</p> 
+                  <p><a href="About.html" class="btn btn-secondary btn-lg">Read more</a></p>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-6 ftco-animate img">
+                    <!-- <img src="img/Triple Saltbae.jpeg" alt="chef" id="myImg"> -->
+                    
+                     <video id="myImg" autoplay muted>
+                        <source src="img/Triple Saltbae.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                      </video>
+
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- end of story -->
+
+          <!-- menu --> 
+        <div class="maincontent">
+            <div class="col-md-12 text-center mb-5 ftco-animate">
+                <h2 class="display-4">Menu</h2>
+                <div class="row justify-content-center">
+                  <div class="col-md-7">
+                    <p class="lead"></p>
+                  </div>
+                </div>
+              </div>
+
+            <div class="container">
+                <section id="menu">
+                    <div class="block menu1">
+                        <div class="buttons-container"> <a href="#" class="button button--is-active" data-target="pizzaMenu">Regular</a>
+                            <a href="#" class="button" data-target="coffeeMenu">Lunch</a>  <a href="#" class="button" data-target="SnacksMenu">Snacks</a> <a href="#" class="button" data-target="noodlesMenu">Desserts</a>  <a href="#" class="button" data-target="BeveragesMenu">Beverages</a>
+                        </div>                   
+                                                  <!-- Start Regular Menu 1-->
+                        <div class="menu menu--is-visible" id="pizzaMenu" data-aos="fade-up">
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="img/CLASSIC ENGLISH.webp">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                        <h3 class="item__title">CLASSIC ENGLISH</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">$15</span>
+                                    </div>
+                                    <p class="item__description">Choice Of Eggs Style, Toast, Tomatoes, Baked Beans, Grilled Bacon And Chicken Sausage, Sauteed Mushrooms, Irish Potatoes.</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="1" data-name="CLASSIC ENGLISH" data-price="15" data-quantity="1"
+                                    data-image="img/CLASSIC ENGLISH.webp">Add to cart</button>
+                               </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="img/AMERICANA.webp">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">AMERICANA</h3>
+                                         <span class="item__dots"></span>
+ <span class="item__price">$25</span>
+                                    </div>
+                                    <p class="item__description">Choice Of Waffles Or Pancakes, Bacon Or Sausages, Strawberry And Blueberries With Maple Syrup And House Topping.</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="2" data-name="AMERICANA" data-price="25" data-quantity="1"
+                                    data-image="img/AMERICANA.web">Add to cart</button>
+                                </div>
+                                                        </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="img/CHICKEN OR BEEF WRAPS.webp">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                        <h3 class="item__title">CHICKEN OR BEEF WRAPS</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">$20</span>
+                                    </div>
+                                    <p class="item__description">Choice Of Smokey Chicken Or Beef, Lettuce, Tomatoes, Cabbage, Carrots, Sausage And Bread)
+                                        .</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="3" data-name="CHICKEN OR BEEF WRAPS" data-price="20" data-quantity="1"
+                                    data-image="img/CHICKEN OR BEEF WRAPS.webp">Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="img/TUNA MELT SANDWICH.webp">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                        <h3 class="item__title">TUNA MELT SANDWICH</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">$17</span>
+                                    </div>
+                                    <p class="item__description">Df Toast, Tuna Steak Leek, Basil Mayo And Melted Mozzarella.</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="4" data-name="TUNA MELT SANDWICH" data-price="17" data-quantity="1"
+                                    data-image="img/TUNA MELT SANDWICH.webp">Add to cart</button>
+                                </div>
+                            </div>
+                          </div>
+                                               <!-- End Pizza Menu -->
+
+                                                   <!-- Start Lunch Menu 2-->
+                        <div class="menu" id="coffeeMenu" data-aos="fade-up">
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="img/STIR FRIED SEAFOOD NODDLES.webp">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                        <h3 class="item__title">STIR FRIED SEAFOOD NODDLES</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">$15</span>
+                                    </div>
+                                    <p class="item__description">(Shrimps And Prawns).</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="1" data-name="STIR FRIED SEAFOOD NODDLES" data-price="15" data-quantity="1"
+                                    data-image="img/STIR FRIED SEAFOOD NODDLES.webp">Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="img/THE KITCHEN CHEF STIR FRIED NOODLES.webp">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">THE KITCHEN CHEF STIR FRIED NOODLES</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">$25</span>
+                                    </div>
+                                    <p class="item__description">(Noodles with shredded chicken, vegetable).</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="2" data-name="THE KITCHEN CHEF STIR FRIED NOODLES" data-price="25" data-quantity="1"
+                                    data-image="">Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="img/THE KITCHEN SEAFOOD PASTA (MARINATED).webp">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                        <h3 class="item__title">THE KITCHEN SEAFOOD PASTA (MARINATED)</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">$20</span>
+                                    </div>
+                                    <p class="item__description">.</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="3" data-name="Classic Pizza" data-price="20" data-quantity="1"
+                                    data-image="img/THE KITCHEN SEAFOOD PASTA (MARINATED).webp">Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="img/VEGETABLE PASTA.webp">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">VEGETABLE PASTA</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">$17</span>
+                                    </div>
+                                    <p class="item__description">(Blended Stir Fry Vegetables And Sautee Chicken).</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="4" data-name="VEGETABLE PASTA" data-price="17" data-quantity="1"
+                                    data-image="img/VEGETABLE PASTA.webp">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Pizza Menu -->
+                           
+                           <!-- Start Snack Menu 3-->
+                       <div class="menu" id="SnacksMenu" data-aos="fade-up">
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="img/hotdog.jpeg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Hot dogs</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">$15</span>
+                                    </div>
+                                    <p class="item__description"></p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="1" data-name="Hot dogs" data-price="15" data-quantity="1"
+                                    data-image="img/hotdog.jpeg">Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                   <img class="product-img" src="img/mushroom pizza.jpeg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Mushroom pizza</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">$25</span>
+                                    </div>
+                                    <p class="item__description"></p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="2" data-name="Mushroom pizza" data-price="25" data-quantity="1"
+                                    data-image="img/mushroom pizza.jpeg">Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="img/Hot & Cheesy French Onion Soup Dip.jpeg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Hot & Cheesy French Onion Soup Dip</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">$20</span>
+                                    </div>
+                                    <p class="item__description"></p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="3" data-name="Hot & Cheesy French Onion Soup Dip" data-price="20" data-quantity="1"
+                                    data-image="img/Hot & Cheesy French Onion Soup Dip.jpeg">Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="img/Honey Shrimp Nachos.png">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Honey Shrimp Nachos</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">$17</span>
+                                    </div>
+                                    <p class="item__description"></p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="4" data-name="Honey Shrimp Nachos" data-price="17" data-quantity="1"
+                                    data-image="img/Honey Shrimp Nachos.png">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Pizza Menu -->
+                           <!-- Start Dessert Menu 4-->
+                           <div class="menu" id="noodlesMenu" data-aos="fade-up">
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="img/CREPE LE SUCRE.webp">
+                                </div>
+                                <div class="details col-sm-9">
+                                   <div class="item__header">
+                                        <h3 class="item__title">CINNAMON AND SUGAR DOUGH RINGS</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">$15</span>
+                                    </div>
+                                    <p class="item__description">(Decked Sect Waffles Or Pancaked With Vanilla Cream Topped With Maple Syrup And Strawberries).</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="1" data-name="CREPE LE SUCRE" data-price="15" data-quantity="1"
+                                    data-image="img/CREPE LE SUCRE.webp">Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="img/SPONGE CAKE TOPPED WITH VANILLA CREAM.webp">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">SALTED CARAMEL COOKIE SKILLET</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">$25</span>
+                                    </div>
+                                    <p class="item__description">The toffee chunks and the warm buttery cookie go perfectly with the salted caramel drizzled ice cream.</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="2" data-name="SPONGE CAKE TOPPED WITH VANILLA CREAM" data-price="25" data-quantity="1"
+                                    data-image="img/SPONGE CAKE TOPPED WITH VANILLA CREAM.webp">Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="img/CHOCOLATE MOUSSE.webp">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                        <h3 class="item__title">CHOCOLATE MOUSSE</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">$20</span>
+                                    </div>
+                                    <p class="item__description">(Choice Of Chocolate , Vanilla Or Strawberry Mousse Topped With Sherry).</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="3" data-name="CHOCOLATE MOUSSE" data-price="20" data-quantity="1"
+                                    data-image="img/CHOCOLATE MOUSSE.webp">Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="img/PARFAIT.webp">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">PARFAIT</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">$17</span>
+                                    </div>
+                                    <p class="item__description">(Chopped Apples, Bananas, Red Grapes, Cocconut Flakes , Greet Yoghurt).</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="4" data-name="PARFAIT" data-price="17" data-quantity="1"
+                                    data-image="">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Pizza Menu -->
+
+                        <!-- Start Beverages Menu 5-->
+                        <div class="menu" id="BeveragesMenu" data-aos="fade-up">
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="img/cocktail1.jpeg">
+                                </div>
+                                <div class="details col-sm-9">
+                                   <div class="item__header">
+                                       <h3 class="item__title">SMASHING PUMPKIN</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">$15</span>
+                                    </div>
+                                    <p class="item__description">All spice and black pepper infused real mccoy sauce.</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="1" data-name="SMASHING PUMPKIN" data-price="15" data-quantity="1"
+                                    data-image="img/CREPE LE SUCRE.webp">Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="img/cocktail 3.jpeg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">CAPIRINHA</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">$25</span>
+                                    </div>
+                                    <p class="item__description">Cacha,lime,simple sugar in the raw.</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="2" data-name="CAPIRINHA" data-price="25" data-quantity="1"
+                                    data-image="img/cocktail 3.jpeg">Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="img/cocktail 2.jpeg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                        <h3 class="item__title">FROM MEXICO WITH LOVE</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">$20</span>
+                                    </div>
+                                    <p class="item__description">Vida mezcal,fiorente elderflower,lime shrub.</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="3" data-name="FROM MEXICO WITH LOVE" data-price="20" data-quantity="1"
+                                    data-image="img/cocktail 2.jpeg">Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="img/cocktail 4.jpeg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">FIZZY GINGERMAN</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">$17</span>
+                                    </div>
+                                    <p class="item__description">Ginger infused gin,grape fruit juice,sparkling wine.</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="4" data-name="FIZZY GINGERMAN" data-price="17" data-quantity="1"
+                                    data-image="img/cocktail 4.jpeg">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Menu -->
+                    </div>
+
+                    <!-- End block -->
+
+                    <script src="./js/mycart.js"></script>
+                    <script src="./js/mycart-custom.js"></script>
+                </section>
+            </div>
+        </div>
+        <!-- cart -->
+        <div class="nav-item my-cart-icon">
+            <img src="./img/cart.svg" style="width:20px;"> <span class="badge badge-notify my-cart-badge"> </span>
+        </div>
+        <!-- end of cart -->
+
+      
+        <!-- footer -->
+        <footer>
+            <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0"
+            data-aos-delay="200">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="wrapper">
+                            
+                            <p>For more enquiries contact us</p>
+                            <p><i class="fas fa-phone " style="color: #3a2c25;"></i> +2349034176221 +2349087839608</p>
+                            <p><i class="fas fa-envelope " style="color: #F96D00;"></i> ikeja@aptech-ng.com</p>
+                            <p><i class="fas fa-home" style="color: #F96D00;"></i> 82 Wuraola House, Allen Avenue, Ikeja, Lagos.</p>
+                            <p style="font-weight: bold;"> Subscribe from  news letter below :</p>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Enter Your Email" role="text" name="email" type="email">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="wrapper">
+                            <h2>Usefull Links</h2>
+                            <div class="content">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="About.html">About</a></li>
+                                    <li><a href="./index.html#menu">Menu</a></li>
+                                    <li><a href="login.html">Contact</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+   
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="wrapper">
+                            <h2> Opening Time</h2>
+                            <div class="content">
+                                <ul class="d-flex se">
+                                    <li><a>Monday</a>
+                                        <span>8 AM &nbsp;-&nbsp; 10 PM</span>
+                                    </li>
+                                    <li><a>Tuseday</a>
+                                        <span>8 AM &nbsp;-&nbsp; 10 PM</span>
+                                    </li>
+                                    <li><a>Wednesday</a>
+                                        <span>8 AM &nbsp;-&nbsp; 10 PM</span>
+                                    </li>
+                                    <li><a>Thursday</a>
+                                        <span>8 AM &nbsp;-&nbsp; 10 PM</span>
+                                    </li>
+                                    <li><a>Friday</a>
+                                        <span>8 AM &nbsp;-&nbsp; 10 PM</span>
+                                    </li>
+                                    <li><a>Saturday</a>
+                                        <span>8 AM &nbsp;-&nbsp; 10 PM</span>
+                                    </li>
+                                    <li><a>Sunday</a>
+                                        <span>8 AM &nbsp;-&nbsp; 10 PM</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+        <div class="copy-right">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p>2021 @ All Rights Reserved Designed and developed by <span>Jinmi Engineering</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</footer>
+
+<!-- end of footer -->
+        <!-- end of footer -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="js/custom-general.js"></script>
+    </body>
+
+</html>
